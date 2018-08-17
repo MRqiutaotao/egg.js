@@ -1,0 +1,166 @@
+2018-08-16 21:05:38,394 ERROR 9059 [-/::1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/list.tpl from /Users/apple/Desktop/workspace/egg/egg-example/app/view
+    at Map.resolve (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.1.0@egg-view/lib/view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9059
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 21:37:15,545 ERROR 9441 [-/::1/-/611ms GET /news] nodejs.ReferenceError: $ is not defined
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:11:22)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:9)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:22:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9441
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 21:37:50,270 ERROR 9446 [-/::1/-/872ms GET /news] nodejs.ReferenceError: $ is not defined
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:11:22)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:9)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:22:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9446
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 21:37:53,087 ERROR 9446 [-/::1/-/392ms GET /news] nodejs.ReferenceError: $ is not defined
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:11:22)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:9)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:22:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9446
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 21:39:20,097 ERROR 9460 [-/::1/-/727ms GET /news] nodejs.ReferenceError: $ is not defined
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:11:17)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:9)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:23:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9460
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 21:39:39,616 ERROR 9464 [-/::1/-/769ms GET /news] nodejs.ReferenceError: $ is not defined
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:11:17)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:9)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:23:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9464
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 21:41:03,995 ERROR 9480 [-/::1/-/644ms GET /news] nodejs.ReferenceError: $ is not defined
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:12:17)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:29)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:24:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9480
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 21:41:31,369 ERROR 9486 [-/::1/-/631ms GET /news] nodejs.ReferenceError: $ is not defined
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:12:17)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:20)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:24:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9486
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 21:42:29,136 ERROR 9500 [-/::1/-/649ms GET /news] nodejs.ReferenceError: $ is not defined
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:13:22)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:9)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:24:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9500
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 21:44:34,690 ERROR 9530 [-/::1/-/722ms GET /news] nodejs.ReferenceError: imgSrc is not defined
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:13:20)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:9)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:24:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9530
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 22:09:30,628 ERROR 9769 [-/::1/-/704ms GET /news] nodejs.TypeError: node(...).find(...).last(...).text(...).replaceAll is not a function
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:20:73)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:9)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:36:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9769
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 22:10:12,885 ERROR 9777 [-/::1/-/611ms GET /news] nodejs.ReferenceError: g is not defined
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:20:89)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:9)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:36:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9777
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 22:10:20,234 ERROR 9777 [-/::1/-/601ms GET /news] nodejs.ReferenceError: g is not defined
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:20:89)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:9)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:36:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9777
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 22:18:19,492 ERROR 9859 [-/::1/-/738ms GET /news] nodejs.ReferenceError: g is not defined
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:19:35)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:9)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:36:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9859
+hostname: appledeMacBook-Pro.local
+
+2018-08-16 22:19:12,448 ERROR 9871 [-/::1/-/626ms GET /news] nodejs.TypeError: node(...).find(...).last(...).text(...).replaceAll is not a function
+    at Node.<anonymous> (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:20:73)
+    at initialize.exports.each (/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.1.0.0-rc.2@cheerio/lib/api/traversing.js:300:24)
+    at parseDom (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:7:9)
+    at NewsService.list (/Users/apple/Desktop/workspace/egg/egg-example/app/service/news.js:36:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9871
+hostname: appledeMacBook-Pro.local
+
