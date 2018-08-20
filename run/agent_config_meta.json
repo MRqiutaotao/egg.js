@@ -1,5 +1,14 @@
 {
   "keys": "/Users/apple/Desktop/workspace/egg/egg-example/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/apple/Desktop/workspace/egg/egg-example/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Users/apple/Desktop/workspace/egg/egg-example/config/config.default.js"
+    },
+    "root": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.1.0@egg-view/config/config.default.js",
+    "cache": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.1.0@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.1.0@egg-view/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.3.1.0@egg-session/config/config.default.js",
     "key": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.3.1.0@egg-session/config/config.default.js",
@@ -126,12 +135,12 @@
     "buffer": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.1.1@egg-static/config/config.default.js",
     "maxFiles": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.1.1@egg-static/config/config.default.js"
   },
-  "view": {
-    "root": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.1.0@egg-view/config/config.default.js",
-    "cache": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.1.0@egg-view/config/config.local.js",
-    "defaultExtension": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.1.0@egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.1.0@egg-view/config/config.default.js",
-    "mapping": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.1.0@egg-view/config/config.default.js"
+  "nunjucks": {
+    "autoescape": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.2.0@egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.2.0@egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.2.0@egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.2.0@egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.2.0@egg-view-nunjucks/config/config.local.js"
   },
   "env": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.10.0@egg/config/config.default.js",
   "name": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.10.0@egg/config/config.default.js",
@@ -154,7 +163,9 @@
       "egg": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.10.0@egg/config/config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.10.0@egg/config/config.default.js"
+      "cheerio": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.10.0@egg/config/config.default.js",
+      "egg-bin": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.10.0@egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.10.0@egg/config/config.default.js"
     }
   },
   "baseDir": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.10.0@egg/config/config.default.js",

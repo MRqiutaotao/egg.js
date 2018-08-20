@@ -1,2 +1,6 @@
 2018-08-16 20:58:54,907 INFO 8955 [Timer] /Users/apple/Desktop/workspace/egg/egg-example/node_modules/.3.0.3@egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-08-17 00:00:00.000
 2018-08-16 20:58:54,908 INFO 8955 [Timer] /Users/apple/Desktop/workspace/egg/egg-example/node_modules/.3.0.3@egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-08-17 00:00:01.000
+2018-08-19 15:29:32,642 INFO 3213 [Timer] /Users/apple/Desktop/workspace/egg/egg-example/node_modules/.3.0.3@egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-08-20 00:00:00.000
+2018-08-19 15:29:32,643 INFO 3213 [Timer] /Users/apple/Desktop/workspace/egg/egg-example/node_modules/.3.0.3@egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-08-20 00:00:01.000
+2018-08-20 19:25:19,731 INFO 4919 [Timer] /Users/apple/Desktop/workspace/egg/egg-example/node_modules/.3.0.3@egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-08-21 00:00:00.000
+2018-08-20 19:25:19,731 INFO 4919 [Timer] /Users/apple/Desktop/workspace/egg/egg-example/node_modules/.3.0.3@egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-08-21 00:00:01.000

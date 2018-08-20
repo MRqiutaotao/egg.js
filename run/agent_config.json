@@ -134,8 +134,17 @@
       "root": "/Users/apple/Desktop/workspace/egg/egg-example/app/view",
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
-      "mapping": {}
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".tpl": "nunjucks"
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
     },
     "env": "local",
     "name": "egg-example",
@@ -159,7 +168,9 @@
         "egg": "^2.10.0"
       },
       "devDependencies": {
-        "egg-bin": "^4.8.1"
+        "cheerio": "^1.0.0-rc.2",
+        "egg-bin": "^4.8.1",
+        "egg-view-nunjucks": "^2.2.0"
       }
     },
     "baseDir": "/Users/apple/Desktop/workspace/egg/egg-example",
@@ -404,6 +415,20 @@
       "from": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.10.0@egg/config/plugin.js",
       "path": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.1.0@egg-view",
       "version": "2.1.0"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/apple/Desktop/workspace/egg/egg-example/config/plugin.js",
+      "path": "/Users/apple/Desktop/workspace/egg/egg-example/node_modules/.2.2.0@egg-view-nunjucks",
+      "version": "2.2.0"
     }
   }
 }

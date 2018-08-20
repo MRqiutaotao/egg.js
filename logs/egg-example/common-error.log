@@ -164,3 +164,22 @@ hostname: appledeMacBook-Pro.local
 pid: 9871
 hostname: appledeMacBook-Pro.local
 
+2018-08-19 15:29:47,246 ERROR 3215 [-/::1/-/21ms GET /news] nodejs.RequestError: getaddrinfo ENOTFOUND book.douban.com book.douban.com:443, GET https://book.douban.com/latest?icn=index-latestbook-all -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"book.douban.com:443:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {} (book.douban.com)
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+code: "ENOTFOUND"
+errno: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "book.douban.com"
+host: "book.douban.com"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/latest?icn=index-latestbook-all"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"headers":{},"size":0,"aborted":false,"rt":15,"keepAliveSocket":false,"requestUrls":["https://book.douban.com/latest?icn=index-latestbook-all"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 3215
+hostname: appledeMacBook-Pro.local
+
